@@ -5,29 +5,38 @@
 /*import css variables*/
 @import url(./partials/_variables.css);
 
+/*import global variables*/
+@import url(./partials/_global.css);
 
-/* start nav */
+
+/* start navigation */ 
 
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
 }
 
 .header_area .main-menu .navbar{
-    padding: 1rem 20rem;
+    padding: 1rem 20rem ;
 }
+
 .header_area .main-menu .nav-item .nav-link{
+    font-family: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2px;
     font-family: var(--roboto);
     text-transform: uppercase;
-    font-weight: 500;
     padding: 1.7rem;
     color: var(--title-color);
 }
+
 .header_area .main-menu .navbar-nav .active a{
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
 .header_area .main-menu .navbar-nav a:hover{
     background: var(--gradient-color);
     -webkit-background-clip: text;
@@ -35,13 +44,148 @@
     background-clip: text;
 }
 
-/* end nav */
 
-/*start banner area*/
+/* end navigation */ 
 
-.site-main .site-banner{
-    background: url(../img/banner/home-banner.png) no-repeat;
-    background-position: 0% 50%;
+/* Banner Area */ 
+
+.site-main .site-banner {
+    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
 }
 
-/*end banner are*/
+.site-main .site-banner .site-title h3{
+    padding-top: 25%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+/* End Banner Area */ 
+
+/* Start About area*/
+
+.site-main .about-area{
+    padding: 5rem 5rem;
+}
+.site-main .about-area .about-title h2>span{
+    display: block;
+    font-style: normal bold;
+    font-size: 49px;
+    line-height: 60px;
+    font-family: var(--roboto);
+    letter-spacing: 21px;
+}
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End About area*/
+
+/* Start services area*/
+
+.site-main .services-area{
+    padding: 8rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+    
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+    letter-spacing: 16px;
+    font-weight: 600;
+}
+
+.site-main .services-area .card-body h5{
+    font-style: normal bold;
+    font-family: var(--roboto);
+    font-weight: 620;
+}
+
+.site-main > .services-area .services{
+    background: rgba(56, 56, 56, 0.04);
+    padding: 2rem 0;
+    width: 20rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+    font-size: 68px;
+}
+.site-main > .services-area .services-1{
+    background: rgba(56, 56, 56, 0.04);
+    padding: 2rem 0;
+    width: 20rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+    font-size: 76px;
+}
+.site-main > .services-area .services-2{
+    background: rgba(56, 56, 56, 0.04);
+    padding: 2rem 0;
+    width: 20rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .5s ease;
+    font-size: 105px;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+.site-main > .services-area .services-1:hover{
+    box-shadow: var(--box-shadow);
+}
+.site-main > .services-area .services-2:hover{
+    box-shadow: var(--box-shadow);
+}
+
+  /* End services area */
+
+
+  /*Footer icons*/
+
+  footer.footer-area{
+      padding: 4rem 0rem 1rem 0rem;
+  }
+  footer.footer-area .social h5{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 30px;
+    font-family: var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size:28px;
+    padding: 2rem;
+    color: grey;
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+
+
+/* End Footer */ 
+  /*End footer icons*/
