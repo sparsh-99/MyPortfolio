@@ -22,7 +22,7 @@
 }
 
 
-.button.primary-button{
+.primary-button{
     background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
     background-clip: padding-box;
     color: whitesmoke;
@@ -34,7 +34,7 @@
     line-height: 20px;
 }
 
-.button.primary-button:hover{
+.primary-button:hover{
     background: whitesmoke;
     background-clip: padding-box;
     color: black;
