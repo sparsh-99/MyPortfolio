@@ -22,7 +22,7 @@
 }
 
 
-.button.primary-button{
+.button .primary-button{
     background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
     background-clip: padding-box;
     color: whitesmoke;
@@ -34,13 +34,13 @@
     line-height: 20px;
 }
 
-.button.primary-button:hover{
+.button .primary-button:hover{
     background: whitesmoke;
     background-clip: padding-box;
     color: black;
 }
 
-.button.primary-button::after, .button.secondary-button::after{
+.button .primary-button::after, .button.secondary-button::after{
     position: absolute;
     top: -2px; left: -2px;
     bottom: -2px;  right: -2px;
@@ -50,7 +50,7 @@
     border-radius: 4px;
 }
 
-.button.secondary-button{
+.button .secondary-button{
     background: white;
     background-clip: padding-box;
     transition: background .6s ease;
@@ -60,7 +60,7 @@
     line-height: 20px;
 }
 
-.button.secondary-button:hover{
+.button .secondary-button:hover{
     background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
     color: whitesmoke;
     box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
