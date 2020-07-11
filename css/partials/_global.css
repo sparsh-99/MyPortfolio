@@ -7,7 +7,7 @@
     font-weight: 600;
     font-size: 50px;
     line-height: 72px;
-    font-family: var(--roboto);
+    font-family: var(--source);
 }
 
 .text-uppercase{
@@ -17,12 +17,12 @@
 /* Buttons */ 
 
 .button{
-    font-family: var(--roboto);
+    font-family: var(--source);
     position: relative;
 }
 
 
-.button .primary-button{
+.button.primary-button{
     background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
     background-clip: padding-box;
     color: whitesmoke;
@@ -34,13 +34,13 @@
     line-height: 20px;
 }
 
-.button .primary-button:hover{
+.button.primary-button:hover{
     background: whitesmoke;
     background-clip: padding-box;
     color: black;
 }
 
-.button .primary-button::after, .button.secondary-button::after{
+.button.primary-button::after, .button.secondary-button::after{
     position: absolute;
     top: -2px; left: -2px;
     bottom: -2px;  right: -2px;
@@ -50,7 +50,7 @@
     border-radius: 4px;
 }
 
-.button .secondary-button{
+.button.secondary-button{
     background: white;
     background-clip: padding-box;
     transition: background .6s ease;
@@ -72,7 +72,7 @@ p.para{
     font-weight: 500;
     font-size: 16px;
     line-height: 25px;
-    font-family: var(--roboto);
+    font-family: var(--source);
 }
 
 .navbar_fixed{
