@@ -29,7 +29,7 @@
 }
 
 
-.primary-button{
+.button{
     background-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
     background-clip: padding-box;
     color: whitesmoke;
@@ -41,13 +41,13 @@
     line-height: 20px;
 }
 
-.primary-button:hover{
+.button:hover{
     background: whitesmoke;
     background-clip: padding-box;
     color: black;
 }
 
-.button.primary-button::after, .button.secondary-button::after{
+.button::after, .button.secondary-button::after{
     position: absolute;
     top: -2px; left: -2px;
     bottom: -2px;  right: -2px;
