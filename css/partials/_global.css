@@ -21,7 +21,7 @@
 
 
 .btn.button.primary-button{
-    background-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    background: black;
     background-clip: padding-box;
     color: whitesmoke;
     transition: background .6s ease;
