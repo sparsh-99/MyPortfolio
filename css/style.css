@@ -1,11 +1,11 @@
 /*import fonts*/
-@import url(https://sparsh-99.github.io/MyPortfolio/css/partials/fonts.css);
+@import url(/MyPortfolio/css/partials/fonts.css);
 
 /*import css variables*/
-@import url(https://sparsh-99.github.io/MyPortfolio/css/partials/_variables.css);
+@import url(/MyPortfolio/css/partials/_variables.css);
 
 /*import global variables*/
-@import url(https://sparsh-99.github.io/MyPortfolio/css/partials/_global.css);
+@import url(/MyPortfolio/css/partials/_global.css);
 
 
 /* start navigation */ 
@@ -48,9 +48,7 @@
 
 /* Banner Area */ 
 
-.site-main .site-banner {
-    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
-}
+
 
 .site-main .site-banner .site-title h3{
     padding-top: 25%;
