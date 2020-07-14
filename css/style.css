@@ -173,6 +173,24 @@ p.para{
 
 /* End About area*/
 
+/* Certificates */
+.cert-area{
+    padding: 8rem 2rem;   
+}
+.cert-area .cert-title h3{
+    letter-spacing: 1rem;
+
+}
+.vl {
+    padding: 1.5rem;
+    padding-left: 4rem;
+    border-left-width: 5px;
+    border-left-style: solid;
+    height: auto;
+    border-image: linear-gradient( to bottom, #4458dc, #854fee) 1 100%;
+}
+/* End certificates */
+
 /* Start services area*/
 
 .site-main .services-area{
