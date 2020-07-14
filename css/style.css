@@ -192,7 +192,7 @@ p.para{
 
 .site-main .services-area .card-body h5{
     font-style: normal bold;
-    font-family: var(--roboto);
+    font-family: var(--source);
     font-weight: 620;
 }
 
@@ -244,7 +244,7 @@ p.para{
     font-weight: 500;
     font-size: 23px;
     line-height: 30px;
-    font-family: var(--roboto);
+    font-family: var(--source);
 }
 
 footer.footer-area .social a > i{
