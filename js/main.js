@@ -57,6 +57,8 @@ $(document).ready(function () {
             showValidate(message);
             check=false;
         }
+        if(check==true)
+            return;
     });
 
 
